@@ -1,0 +1,43 @@
+.center{
+   
+   max-width: 800px;
+    margin: auto;
+}
+.Inicio{
+    background-image: url('./sarang-pande-wAwEmrUUV0w-unsplash.jpg');
+    height: 500px;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}
+h1{
+    background-color: rgba(0, 0, 0, 0.47);
+    color: antiquewhite;
+   position: absolute; 
+   top: 0;
+   left: 150px;
+   padding: 10px; font-style:italic;
+   font-weight: 100;
+}
+body{font-family: "Roboto", sans-serif;}
+.card{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+p{
+    padding: 10px;
+}
+.card img{
+    width: 300px;
+}
+    @media screen and (max-width:600px) {
+    .card{
+        flex-direction: column;
+        min-width: 300px;
+    }
+    .card img{
+        width: 100%;
+    }
+}
